@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/**
+ * Igloo Refrigerator Parts Inc Corporate site
+ *
+ * Print CSS file for the IRP Inc's corporate site 
+ * 
+ * @project		IRP Inc Corporate
+ * @author		Design Team at IRP Inc
+ * @copyright	2011 Igloo Refrigerator Parts Inc
+ *
+ * @colordef	black; main text
+ */
+
+@page {
+   margin: 2cm 3cm;
+}
+
+nav ul,
+.banner,
+#bestEngAward,
+.cta,
+#search,
+footer ul,
+table .button:link, table .button:visited {
+	display: none;
+}
+
+body {
+	background: white;
+	color: black;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header h1,
+#main, #sec,
+.span-6, .span-9, .span-12, .span-18,
+.serviceBox, .serviceBox li,
+.col3 article,
+.intro {
+	float: none;
+}
+
+.wrapper,
+.span-6, .span-9, .span-12, .span-18,
+.cta {
+	width: 100%;
+	margin-right: 0;
+}
+
+header {
+	background: none;
+	margin-bottom: 20px;
+	margin-top: 0;
+	min-height: 0;
+	_height: 0; /* HACK_IE_LTE_6: IE 6 incorrectly applies the height property as min-height and does not support min-height. */
+}
+
+#main, #sec {
+	margin-bottom: 20px;
+}
+#pageHome #main,
+#pageHome #sec {
+	margin-top: 0;
+}
+
+.copy {
+	padding-bottom: 0;
+}
+
+#book {
+	color: black;
+}
+
+a:link, a:visited {
+	color: #666;
+	border: none;
+	text-decoration: underline;
+}
+a:after {
+	content: " (" attr(href) ") ";
+}
+a[href^="#"]:after {
+	content: " (http://procssforhightrafficwebsites.com)";
+}
+
+header h1 a:link, header h1 a:visited {
+	background: none;
+	text-indent: 0;
+	height: auto;
+	width:auto;
+	text-decoration: none;
+}
+header h1 a:link:after, header h1 a:visited:after {
+	content: "";
+}
+
+#book a {
+	color: #666;
+}
+
+.serviceBox li a:link, .serviceBox li a:visited {
+	background: none;
+}
+ 
+img,
+tr {
+	page-break-inside: avoid;
+}
+
+th, tbody th, tfoot th {
+	background: none;
+}
+td, th {
+	border: none;
+}
+tr {
+	border-bottom: 1px solid #999;
+}
+
+#masthead {
+	margin: 0;
+	padding: 0;
+}
+
+.box,
+.col3,
+#aboutBox,
+footer,
+table {
+	background: white;
+}
+
+.serviceBox {
+	border: #666;
+	width: 100%;
+}
+.serviceBox li {
+	border: none;
+}
+
+.col3 article {
+	border: none;
+	padding: 0;
+	width: 100%;
+}
+
+.planet {
+	background: none;
+}

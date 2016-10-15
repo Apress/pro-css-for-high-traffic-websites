@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/**
+ * Igloo Refrigerator Parts Inc Corporate site
+ *
+ * Reset CSS file for the IRP Inc's corporate site 
+ * 
+ * @project		IRP Inc Corporate
+ * @author		Design Team at IRP Inc
+ * @copyright	2011 Igloo Refrigerator Parts Inc
+ */
+
+/**
+ * Reset
+ *
+ * Resets and default styles for possibly utilized elements
+ *
+ * @section defaults
+ * @see		http://meyerweb.com/eric/tools/css/reset/
+ * @see		http://developer.yahoo.com/yui/3/cssreset/
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, ol, ul, li,
+form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background:#fbfdfc url(i/bkg.jpg);
+	color: #333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 62.5%;
+	line-height: 1;
+}
+ol, ul {
+	margin-left: 20px;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote {
+	margin: 28px 20px;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+abbr[title] {
+	border-bottom: 1px dotted #cecac5;
+	cursor: help;
+}
+ins {
+	background: #fffbeb;
+	text-decoration: none;
+}
+sup {
+	vertical-align: text-top;
+}
+sub {
+	vertical-align: text-bottom;
+}

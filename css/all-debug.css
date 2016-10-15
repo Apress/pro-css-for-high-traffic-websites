@@ -1,0 +1,23 @@
+/**
+ * Igloo Refrigerator Parts Inc Corporate site
+ *
+ * Debug CSS file for the IRP Inc's corporate site 
+ * 
+ * @project		IRP Inc Corporate
+ * @author		Design Team at IRP Inc
+ * @copyright	2011 Igloo Refrigerator Parts Inc
+ */
+
+/**
+ * Imports
+ *
+ * Sets character set and imports all files for the project.
+ * This file is used by build scripts. It must be an accurate list of all CSS resources used in the project.
+ *
+ * @section imports
+ */
+
+@charset "UTF-8";
+
+@import url(reset.css);
+@import url(main.css);
